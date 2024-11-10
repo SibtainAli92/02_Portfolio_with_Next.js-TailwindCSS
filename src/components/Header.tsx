@@ -4,8 +4,7 @@ export default function Header() {
     return (
         <div className="bg-[#222222] text-gray-200 p-8">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-                <h1 className="font-serif text-3xl font-bold text-gray-100 mb-4 md:mb-0">Sibtain&apos;s Portfolio</h1>
-                <nav>
+            <h1 className="font-serif text-3xl font-bold text-gray-100 mb-4 md:mb-0">Sibtain&apos;s Portfolio</h1>                <nav>
                     <ul className="list-none flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
                         <li>
                             <Link href="/" className="text-gray-200 text-lg hover:text-[#504f4d] font-serif">
